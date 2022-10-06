@@ -1,7 +1,4 @@
-import Popover from './Popover';
+import Collapse from './Collapse';
 
-const container = document.querySelector('.container');
-
-const popover = new Popover(container);
-
-popover.init();
+const widget = new Collapse();
+widget.init();
