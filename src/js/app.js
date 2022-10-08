@@ -1,4 +1,7 @@
-import Collapse from './Collapse';
+import DataForm from './components/DataForm';
 
-const widget = new Collapse();
-widget.init();
+const container = document.querySelector('.container');
+
+const dataForm = new DataForm(container);
+
+dataForm.init();
